@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  width: max-content;
+  background-color: lightgrey;
+  border: 1px solid transparent;
+  padding-right: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.file-container {
+  background-color: grey;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.file-name {
+  margin-right: 10px;
+}
+
+button {
+  padding: 3px 10px;
+}
+
+.create-input {
+  display: flex;
+  margin: 5px 0;
+}
+
+.create-btn {
+  margin-left: 5px;
+}
+
+.folder {
+  background-color: beige;
+}
+
+.file {
+  background-color: azure;
+}
